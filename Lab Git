@@ -1,0 +1,72 @@
+Introduction
+Being able to use both, git and GitHub, is an important skill every software/data engineer must possess. This is even more important when it comes to the ability to handle codes in collaborative projects. This lab will help you learn how to use git/GitHub and understand its importance.
+
+Instructions
+
+1. First of all, install git if you don't have it yet, and create a GitHub account. ( You can refer to the lesson "Install Git and Create GitHub Account" in the prework. Follow the guidelines given there. Additionally, you can use these resources: Install git, Version control with git)
+
+2.Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro.
+
+Solution: git clone https://github.com/Simran2809/lab-git.git
+
+3. Clone that repo to your computer.
+
+Solution: git clone git clone https://github.com/Simran2809/lab-git.git
+
+4. Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt).
+
+SOlution: touch about.txt
+
+5. Add the file you just created to the git.
+
+Solution: git add about.txt
+
+6. Commit the changes.
+
+Solution: git commit -m "Add fun fact in about.txt"
+
+7. Push the changes to the GitHub and check your repository to make sure everything is there.
+
+Solution: git push origin master
+
+Great! This was pretty smooth, we hope. 🚀
+
+Now let's practice the collaboration part.
+
+Pair Programming Exercise
+
+Pair yourself with a classmate. Send the link of your GitHub repository to your pair via Slack. Now each of you should perform the following set of actions:
+
+1. Fork your classmate's repository.
+
+Solution: https://github.com/MariaPruteanu/lab-git-2.git
+
+2. Clone the repository, so that you have it locally and can make changes.
+
+Solution: git clone https://github.com/MariaPruteanu/lab-git-2.git
+
+3. Create a new branch named classmate.
+
+Solution: git checkout -b classmate
+
+4. Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes.
+
+Solution: touch simran.txt
+git add simran.txt
+git commit -m "I enrolled in Ironhack's Data Analytics bootcamp because I would like to upskill in simran.txt"
+
+5. Add the changes to the git.
+
+Solution: git add simran.txt
+
+6. Commit and push the changes. Now, all the changes should be on your GitHub, inside the forked repository.
+ 
+Solution: git push origin master
+
+7. Create a pull request to make changes appear in the original repository.
+
+
+8. Merge the branch your classmate created. Now everyone's repos should have the original file (about.txt) as well as the new one with your classmate's name.
+ 
+
+We hope you enjoyed this activity and learned something new about your classmates! ❤️
